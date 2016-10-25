@@ -1,0 +1,40 @@
+﻿Build started 25/10/2016 11:18:15.
+     1>Project "C:\Users\adevito\Documents\tools\sleuthkit\win32\libtsk\libtsk.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release_PostgreSQL\libtsk.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         libtsk.vcxproj -> C:\Users\adevito\Documents\tools\sleuthkit\win32\Release_PostgreSQL\libtsk.lib
+       PostBuildEvent:
+         copy "C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\release\libvmdk.dll" "C:\Users\adevito\Documents\tools\sleuthkit\win32\Release_PostgreSQL\"
+         copy "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\release\libewf.dll" "C:\Users\adevito\Documents\tools\sleuthkit\win32\Release_PostgreSQL\"
+         copy "C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\release\libvhdi.dll" "C:\Users\adevito\Documents\tools\sleuthkit\win32\Release_PostgreSQL\"
+         copy "C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\release\zlib.dll" "C:\Users\adevito\Documents\tools\sleuthkit\win32\Release_PostgreSQL\"
+         copy "C:\Program Files (x86)\PostgreSQL\9.4\bin\libpq.dll" "C:\Users\adevito\Documents\tools\sleuthkit\win32\Release_PostgreSQL\" 
+         copy "C:\Program Files (x86)\PostgreSQL\9.4\bin\libintl-8.dll" "C:\Users\adevito\Documents\tools\sleuthkit\win32\Release_PostgreSQL\" 
+         copy "C:\Program Files (x86)\PostgreSQL\9.4\bin\libiconv-2.dll" "C:\Users\adevito\Documents\tools\sleuthkit\win32\Release_PostgreSQL\" 
+         copy "C:\Program Files (x86)\PostgreSQL\9.4\bin\libeay32.dll" "C:\Users\adevito\Documents\tools\sleuthkit\win32\Release_PostgreSQL\"
+         copy "C:\Program Files (x86)\PostgreSQL\9.4\bin\ssleay32.dll" "C:\Users\adevito\Documents\tools\sleuthkit\win32\Release_PostgreSQL\"
+         copy "C:\Users\adevito\Documents\tools\sleuthkit\win32\\PostgreSQL_CRT\win32\msvcr120.dll" "C:\Users\adevito\Documents\tools\sleuthkit\win32\Release_PostgreSQL\" 
+         :VCEnd
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+         The system cannot find the file specified.
+         The system cannot find the file specified.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Release_PostgreSQL\libtsk.unsuccessfulbuild".
+         Touching "Release_PostgreSQL\libtsk.lastbuildstate".
+     1>Done Building Project "C:\Users\adevito\Documents\tools\sleuthkit\win32\libtsk\libtsk.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.96

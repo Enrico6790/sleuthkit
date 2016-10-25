@@ -1,0 +1,23 @@
+﻿Build started 25/10/2016 11:18:17.
+     1>Project "C:\Users\adevito\Documents\tools\sleuthkit\win32\tsk_jni\tsk_jni.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release_PostgreSQL\libtsk_jni.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\adevito\Documents\tools\sleuthkit\win32\Release_PostgreSQL\libtsk_jni.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\adevito\Documents\tools\libvmdk-20160119\msvscpp\release" /LIBPATH:"C:\Users\adevito\Documents\tools\libvhdi-20160424\msvscpp\release" /LIBPATH:"C:\Users\adevito\Documents\tools\libewf-20160424\msvscpp\release" libvhdi.lib libvmdk.lib libewf.lib zlib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release_PostgreSQL\libtsk_jni.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\adevito\Documents\tools\sleuthkit\win32\Release_PostgreSQL\libtsk_jni.pdb" /MAP:"C:\Users\adevito\Documents\tools\sleuthkit\win32\Release_PostgreSQL\libtsk_jni.map" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\adevito\Documents\tools\sleuthkit\win32\Release_PostgreSQL\libtsk_jni.lib" /MACHINE:X86 /DLL Release_PostgreSQL\dataModel_SleuthkitJNI.obj
+         C:\Users\adevito\Documents\tools\sleuthkit\win32\Release_PostgreSQL\libtsk.lib
+            Creating library C:\Users\adevito\Documents\tools\sleuthkit\win32\Release_PostgreSQL\libtsk_jni.lib and object C:\Users\adevito\Documents\tools\sleuthkit\win32\Release_PostgreSQL\libtsk_jni.exp
+         Generating code
+         Finished generating code
+         tsk_jni.vcxproj -> C:\Users\adevito\Documents\tools\sleuthkit\win32\Release_PostgreSQL\libtsk_jni.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\adevito\Documents\tools\sleuthkit\win32\Release_PostgreSQL\libtsk_jni.dll;#2" /manifest Release_PostgreSQL\libtsk_jni.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release_PostgreSQL\libtsk_jni.unsuccessfulbuild".
+         Touching "Release_PostgreSQL\libtsk_jni.lastbuildstate".
+     1>Done Building Project "C:\Users\adevito\Documents\tools\sleuthkit\win32\tsk_jni\tsk_jni.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:48.41
